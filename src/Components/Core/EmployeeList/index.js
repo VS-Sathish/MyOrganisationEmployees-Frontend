@@ -81,7 +81,13 @@ const EmployeeList = () => {
       </Typography>
       <TableContainer
         component={Paper}
-        sx={{ padding: 2, marginTop: 2, minWidth: 650 }}
+        sx={{
+          padding: 3,
+          marginTop: 2,
+          maxWidth: 1000,
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
       >
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
