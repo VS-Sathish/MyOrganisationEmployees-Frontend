@@ -33,7 +33,7 @@ const UpdateEmployee = () => {
       .catch((error) => {
         console.log("Error:", error);
       });
-  }, []);
+  }, [empID]);
 
   const handelInput = (value) => {
     return setEmployeeDetails((employee) => {

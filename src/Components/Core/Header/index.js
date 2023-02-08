@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  AppBar,
-  IconButton,
-  Toolbar,
-  Typography,
-  Stack,
-  Button,
-} from "@mui/material";
+import { AppBar, IconButton, Toolbar, Typography, Stack } from "@mui/material";
 import GroupsIcon from "@mui/icons-material/Groups";
 import { Link, NavLink, Outlet } from "react-router-dom";
 
